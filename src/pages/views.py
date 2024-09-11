@@ -9,7 +9,7 @@ def contact_view(*args, **kwargs):
     return HttpResponse("<h1>Contact Me</h1>")
 
 def about_view(*args, **kwargs):
-    return HttpResponse("<h1>About Me</h1>")
+    return HttpResponse("<h1>About Me Page</h1>")
 
 def social_view(*args, **kwargs):
     return HttpResponse("<h1>Social Page</h1>")
